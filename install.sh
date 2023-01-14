@@ -20,15 +20,16 @@ mkdir -p ~/.fonts
 wget -O /tmp/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip &&
 unzip /tmp/JetBrainsMono.zip -d ~/.fonts/JetBrainsMono
 
-### Setup GNOME Themes
+### Setup GNOME
 mkdir -p ~/.themes
 
 wget -O /tmp/adw-gtk3v4-2.tar.xz https://github.com/lassekongo83/adw-gtk3/releases/download/v4.2/adw-gtk3v4-2.tar.xz &&
 tar -xvf /tmp/adw-gtk3v4-2.tar.xz -C ~/.themes
 
-### Setup GNOME Icons
 git clone https://github.com/vinceliuice/Tela-circle-icon-theme /tmp/Tela-circle-icon-theme
 bash -C /tmp/Tela-circle-icon-theme/install.sh -a
+
+gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
 
 ### Setup VSCode
 ln -s ~/.dotfiles/settings.json ~/.config/Code/User/settings.json
