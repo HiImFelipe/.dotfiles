@@ -15,14 +15,15 @@ paru -S \
 flatpak \
 discord \
 discord-screenaudio \
-gnome-terminal \
+gnome-terminal-transparency \
 nvidia-settings \
 steam \
 qbittorrent \
 winetricks \
 visual-studio-code-bin \
 docker \
-docker-compose
+docker-compose \
+lutris
 
 ### Setup Docker
 sudo systemctl start docker.service
