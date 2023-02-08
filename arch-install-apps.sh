@@ -13,10 +13,12 @@ cd ~
 ### Download packages from AUR
 paru -S \
 flatpak \
+discord \
 discord-screenaudio \
+gnome-terminal \
+nvidia-settings \
 steam \
 qbittorrent \
-nvidia \
 winetricks \
 visual-studio-code-bin \
 docker \
@@ -35,7 +37,8 @@ rest.insomnia.Insomnia \
 com.spotify.Client \
 com.usebottles.bottles \
 org.pipewire.Helvum \
-com.github.GradienceTeam.Gradience
+com.github.GradienceTeam.Gradience \
+com.mattjakeman.ExtensionManager
 
 ### Download gaming packages from flatpak
 flatpak install flathub \
