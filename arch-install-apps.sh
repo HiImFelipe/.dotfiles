@@ -10,6 +10,9 @@ cd paru
 makepkg -si
 cd ~
 
+### Update system
+paru -Syu
+
 ### Download packages from AUR
 paru -S \
 flatpak \
@@ -23,7 +26,9 @@ winetricks \
 visual-studio-code-bin \
 docker \
 docker-compose \
-lutris
+lutris \
+google-chrome \
+nvm
 
 ### Setup Docker
 sudo systemctl start docker.service

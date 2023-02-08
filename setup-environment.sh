@@ -49,3 +49,8 @@ ln -s ~/.dotfiles/settings.json ~/.config/Code/User/settings.json
 
 ### Folder setup
 cd ~/Documents && mkdir ./coding
+
+### Setup node
+
+source .zshrc  
+nvm  install --lts
