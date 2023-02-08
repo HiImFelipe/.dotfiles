@@ -6,7 +6,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-rm -rf ~/.zshrc
+rm ~/.zshrc
+rm ~/.bashrc
 
 ### Setup dotfiles
 git clone --recurse-submodules https://github.com/FelipeSSDev/dotfiles.git ~/.dotfiles
@@ -33,6 +34,7 @@ bash -C /tmp/Tela-circle-icon-theme/install.sh -a
 gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
 
 ### Setup VSCode
+paru -S visual-studio-code-bin
 ln -s ~/.dotfiles/settings.json ~/.config/Code/User/settings.json
 
 ### Folder setup

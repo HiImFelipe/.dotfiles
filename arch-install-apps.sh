@@ -1,6 +1,7 @@
 #!/usr/bin/sh
 
 ### Instalation script for distros based on Arch Linux
+cd ~
 
 ### Setup PARU (AUR)
 sudo pacman -S --needed base-devel
