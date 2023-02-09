@@ -15,6 +15,8 @@ paru -Syu
 
 ### Download packages from AUR
 paru -S \
+linux-headers \
+nvidia-dkms \
 flatpak \
 discord \
 discord-screenaudio \
