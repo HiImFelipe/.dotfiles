@@ -28,7 +28,7 @@ mkdir -p ~/.themes
 git clone https://github.com/vinceliuice/Orchis-theme.git
 cd Orchis-theme
 ./install.sh
-./install.sh -l
+./install.sh -l -c dark
 cd ~
 
 wget -O /tmp/adw-gtk3v4-2.tar.xz https://github.com/lassekongo83/adw-gtk3/releases/download/v4.2/adw-gtk3v4-2.tar.xz &&
