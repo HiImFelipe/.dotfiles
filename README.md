@@ -1,4 +1,4 @@
-# Personal dotfiles repository
+# dotfiles
 My personal Linux dotfiles for automation and sync between computers.
 
 ## Running
