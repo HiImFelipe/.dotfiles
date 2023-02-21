@@ -36,7 +36,8 @@ docker \
 docker-compose \
 lutris \
 google-chrome \
-nvm
+nvm \
+yt-dlp
 
 ### Setup Docker
 sudo systemctl start docker.service
