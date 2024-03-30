@@ -10,7 +10,7 @@ rm ~/.zshrc
 rm ~/.bashrc
 
 ### Setup dotfiles
-git clone --recurse-submodules https://github.com/FelipeSSDev/dotfiles.git ~/.dotfiles
+git clone --recurse-submodules https://github.com/FelipeSSDev/.dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
