@@ -1,7 +1,13 @@
 [user]
-	name = FelipeSSDev
-	email = 13539403+FelipeSSDev@users.noreply.github.com
+	name = HiImFelipe
+	email = 13539403+HiImFelipe@users.noreply.github.com
 [pull]
 	rebase = false
 [init]
 	defaultBranch = main
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
