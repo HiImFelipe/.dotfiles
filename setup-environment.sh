@@ -45,7 +45,7 @@ flatpak override --user --filesystem=xdg-config/gtk-4.0
 
 ### Setup VSCode
 paru -S visual-studio-code-bin
-ln -s ~/.dotfiles/settings.json ~/.config/Code/User/settings.json
+ln -s ~/.dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
 
 ### Folder setup
 cd ~/Documents && mkdir ./coding

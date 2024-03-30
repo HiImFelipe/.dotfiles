@@ -1,0 +1,49 @@
+{
+  "editor.fontFamily": "JetBrainsMono Nerd Font, monospace",
+  "editor.fontSize": 12,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.compactFolders": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "material-icon-theme.activeIconPack": "nest",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "window.zoomLevel": 3,
+  "security.workspace.trust.untrustedFiles": "open",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.default.cppStandard": "c++20",
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path.linux": "/home/felipera/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/felipera/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/felipera/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vs-kubernetes.knownKubeconfigs": [
+      "/home/felipera/Documentos/kubefile maluco.txt"
+    ],
+    "vs-kubernetes.kubeconfig": "/home/felipera/Documentos/kubefile maluco.txt"
+  },
+  "redhat.telemetry.enabled": false,
+  "workbench.colorTheme": "Dracula",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmPasteNative": false,
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
+}
