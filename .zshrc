@@ -122,3 +122,12 @@ export PATH="$HOME/.local/bin/:$PATH"
 
 export DENO_INSTALL="/home/felipera/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
+
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# bun completions
+[ -s "/home/felipera/.bun/_bun" ] && source "/home/felipera/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
