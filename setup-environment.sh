@@ -26,7 +26,8 @@ unzip /tmp/JetBrainsMono.zip -d ~/.fonts/JetBrainsMono
 mkdir -p ~/.themes
 
 git clone https://github.com/vinceliuice/Orchis-theme.git
-cd Orchis-theme
+mv Orchis-theme Orchis-gtk-theme
+cd Orchis-gtk-theme
 ./install.sh
 ./install.sh -l -c dark
 cd ~
