@@ -22,6 +22,11 @@ mkdir -p ~/.fonts
 wget -O /tmp/JetBrainsMono.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/JetBrainsMono.zip &&
 unzip /tmp/JetBrainsMono.zip -d ~/.fonts/JetBrainsMono
 
+### Setup alacritty
+
+mkdir -p ./config/alacritty
+ln -s ~/.dotfiles/alacritty.toml ~/.config/alacritty/alacritty.toml
+
 ### Setup GNOME
 mkdir -p ~/.themes
 
