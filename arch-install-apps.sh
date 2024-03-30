@@ -25,8 +25,6 @@ linux-headers \
 nvidia-dkms \
 flatpak \
 discord \
-discord-screenaudio \
-gnome-terminal-transparency \
 nvidia-settings \
 steam \
 qbittorrent \
