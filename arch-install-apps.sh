@@ -23,6 +23,7 @@ sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnu
 paru -S \
 linux-headers \
 nvidia-dkms \
+alacritty \
 flatpak \
 discord \
 nvidia-settings \
