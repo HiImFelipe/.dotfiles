@@ -10,14 +10,27 @@ The ecosystem makes usage of the **GNOME** desktop environment, **alacritty** as
 
 ## Running
 
-### 1- Downloading applications
+### 1- Clone the repo
 
-Right now it offers a little bit of bloat as there is no way to opt-out of gaming/work applications and only keeping the core utils.
-
-To run the program you just need to give the scripts the right to be executable, then run the following
+In order to run the application, you need to not only clone the repo, but also to change your directory so you run the script in the project's root folder
 
 ```bash
-./arch-install-apps.sh
+git clone https://github.com/HiImFelipe/.dotfiles.git
+cd .dotfiles
+```
+
+### 2- Executing the script
+
+Make sure to change the script rights so it can be executed
+
+```bash
+chmod +x main.sh
+```
+
+Afterwards, you only need to run it
+
+```bash
+./main.sh
 ```
 
 **Flags**
@@ -34,13 +47,7 @@ There are tags implements in order to download different sets of apps. By defaul
 Example
 
 ```bash
-./arch-install-apps.sh -g -w
-```
-
-### 2- Applying settings
-
-```bash
-./setup-environment.sh
+./main.sh -g -w
 ```
 
 ## Plans for the future
