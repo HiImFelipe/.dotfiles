@@ -9,31 +9,31 @@ duration = 0
 draw_bold_text_with_bright_colors = false
 
 [colors.bright]
-black = "0x8e908c"
-blue = "0x969896"
-cyan = "0xa3685a"
-green = "0xe0e0e0"
-magenta = "0x282a2e"
-red = "0xf5871f"
-white = "0x1d1f21"
-yellow = "0xd6d6d6"
+black = "0x5e5c64"
+blue = "0x2a7bde"
+cyan = "0x33c7de"
+green = "0x33d17a"
+magenta = "0xc061cb"
+red = "0xf66151"
+white = "0xffffff"
+yellow = "0xe9aD0C"
 
 [colors.cursor]
 cursor = "0xa3a3a0"
 text = "0xffffff"
 
 [colors.normal]
-black = "0xffffff"
-blue = "0x4271ae"
-cyan = "0x3e999f"
-green = "0x718c00"
-magenta = "0x8959a8"
-red = "0xc82829"
-white = "0x4d4d4c"
-yellow = "0xeab700"
+black = "0x171421"
+blue = "0x12488b"
+cyan = "0x2aa1b3"
+green = "0x26a269"
+magenta = "0xa347ba"
+red = "0xc01c28"
+white = "0xdbdbdb"
+yellow = "0xa2734C"
 
 [colors.primary]
-background = "0x2a2c2e"
+background = "0x171421"
 foreground = "0xa3a3a0"
 
 [cursor]
@@ -385,7 +385,7 @@ program = "/usr/bin/zsh"
 [window]
 decorations = "full"
 dynamic_padding = false
-opacity = 0.7
+opacity = 0.8
 startup_mode = "Windowed"
 
 [window.dimensions]
