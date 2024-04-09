@@ -58,7 +58,8 @@ function install_apps() {
         visual-studio-code-bin \
         docker \
         docker-compose \
-        nvm
+        nvm \
+        github-cli
 
         flatpak install flathub \
         rest.insomnia.Insomnia \
