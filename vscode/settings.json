@@ -45,5 +45,6 @@
   "explorer.confirmPasteNative": false,
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
-  }
+  },
+  "dotnet.server.useOmnisharp": true
 }
