@@ -1,0 +1,38 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "theme": "Tokyo Night",
+  "ui_font_size": 18,
+  "buffer_font_size": 18,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "Cantarell",
+  "formatter": "language_server",
+  "formatter_language_server": {
+    "enabled": true,
+    "on_save": true
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "edit_debounce_ms": 700,
+    "scroll_debounce_ms": 50
+  }
+}

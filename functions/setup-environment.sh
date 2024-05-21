@@ -71,6 +71,10 @@ function setup_environment() {
         ### Setup VSCode
         paru -S visual-studio-code-bin
         ln -s ~/.dotfiles/vscode/settings.json ~/.config/Code/User/settings.json
+        
+        ## Setup Zed
+        curl https://zed.dev/install.sh | bash
+        ln -s ~/.dotfiles/zed/settings.json ~/.config/zed/settings.json
 
         ### Folder setup
         cd ~/Documents && mkdir ./coding
